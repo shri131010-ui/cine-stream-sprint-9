@@ -1,0 +1,12 @@
+/* Yeh ek temporary basic CSS hai. 
+Aap yahan apne purane index.css / App.css ka code paste kar sakte hain */
+body { font-family: sans-serif; background: #121212; color: white; margin: 0; }
+.container { max-width: 1200px; margin: auto; padding: 20px; }
+header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;}
+.movie-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 20px; }
+.movie-card { background: #1e1e1e; border-radius: 8px; overflow: hidden; }
+.movie-card img { width: 100%; height: auto; display: block; }
+.movie-info { padding: 10px; }
+.search-bar { display: flex; gap: 10px; }
+.search-bar input { padding: 8px; border-radius: 4px; border: none; }
+.search-bar button { padding: 8px 16px; border-radius: 4px; border: none; background: #e50914; color: white; cursor: pointer; }
